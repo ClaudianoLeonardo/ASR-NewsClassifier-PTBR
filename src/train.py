@@ -2,7 +2,9 @@ from transformers import AutoModelForSequenceClassification, Trainer, TrainingAr
 from datasets import Dataset
 import mlflow
 from utils import compute_metrics, tokenize_function
-from data_processing import fetch_data, pre_process_data, segregate_data
+from fetch_data import fetch_data
+from pre_processing import pre_process_data
+from segregation import segregate_data
 
 class NewsClassifierTrainer:
     """Class for training a news classifier using transformers and mlflow."""
