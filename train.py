@@ -62,16 +62,5 @@ def train(model_id, num_labels, batch_size, metric_name, model_name, train_datas
         compute_metrics=compute_metrics
     )
 
-    # Training and logging with mlflow
-    with mlflow.start_run():
-        trainer.train()
-        mlflow.log_params(args.to_dict())
-        final_metrics = trainer.evaluate(encoded_val)
-        mlflow.log_metric("final_f1_micro", final_metrics["eval_f1"])
-        mlflow.log_metric("final_roc_auc", final_metrics["eval_roc_auc"])
-        mlflow.log_metric("final_accuracy", final_metrics["eval_accuracy"])
-        mlflow.log_metric("final_runtime", final_metrics["eval_runtime"])
-    mlflow.end_run()
-
     return trainer
 
