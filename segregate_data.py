@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 from utils import dataframe_to_hf_dataset
 
-def segregate_data(data, column_mapping, save=True):
+def segregate_data(data):
     """
     Split the input data into training and validation sets, convert them into Hugging Face datasets, and return them.
 
