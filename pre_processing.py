@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import clean_text
+from utils import limpar_texto
 
 def pre_process_data(raw_data):
     """
