@@ -1,6 +1,6 @@
 # Automatic Speech Recognition News Classifier - PTBR
 DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA - T01 (2023.2 - 24M56)
-Esse projeto consiste em uma arquitetura composta por dois modelos,Whisper e Bert, para realizar classificação de noticias em portugues. Para desempenhar essa atividade foi realizado o fine tuning do Bert utilzando a base de dados [noticias publicadas no Brasil](https://www.kaggle.com/datasets/diogocaliman/notcias-publicadas-no-brasil) e feito o tracking das métricas de treinamento utilizando o mlflow. Para integração dos dois modelos foi desenvolvido uma interface gráfica utilizando gradio. O deploy do modelo está disponível em um hugging face space.
+Esse projeto consiste em uma arquitetura composta por dois modelos,Whisper e Bert, para realizar classificação de noticias em portugues. Para desempenhar essa atividade foi realizado o fine tuning do Bert utilzando a base de dados [noticias publicadas no Brasil](https://www.kaggle.com/datasets/diogocaliman/notcias-publicadas-no-brasil) e feito o tracking das métricas de treinamento utilizando o mlflow. Para orquestrar a pipeline foi utilizado o zenML, e para integração dos dois modelos foi desenvolvido uma interface gráfica utilizando gradio. O deploy do modelo está disponível em um hugging face space.
 
 ## Conjunto de dados:
 A base de dados conta com 10 mil noticias divididas em 5 classes: esportes, economia, famosos, politica, tecnologia.
@@ -10,6 +10,10 @@ para mais informações acesse o [link](https://www.kaggle.com/datasets/diogocal
 ## MLflow:
 
 MLflow é uma plataforma de código aberto para gerenciamento de ciclo de vida de projetos de aprendizado de máquina. Oferece trilha de experimentos, projetos, registro de modelos e ferramentas de implantação. Agnóstica em relação à linguagem e ambiente de execução, facilita o desenvolvimento, reprodução e implantação de soluções de ML.
+
+## zenML:
+
+ZenML é uma plataforma de código aberto para gerenciamento de experimentos e pipelines em projetos de aprendizado de máquina. Simplifica o versionamento, organização e reprodução de experimentos, promovendo a colaboração entre equipes de ciência de dados
 
 ## Gradio 
 
