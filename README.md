@@ -11,15 +11,15 @@ para mais informações acesse o [link](https://www.kaggle.com/datasets/diogocal
 
 ## MLflow:
 
-MLflow é uma plataforma de código aberto para gerenciamento de ciclo de vida de projetos de aprendizado de máquina. Oferece trilha de experimentos, projetos, registro de modelos e ferramentas de implantação. Agnóstica em relação à linguagem e ambiente de execução, facilita o desenvolvimento, reprodução e implantação de soluções de ML.
+[MLflow](https://mlflow.org/) é uma plataforma de código aberto para gerenciamento de ciclo de vida de projetos de aprendizado de máquina. Oferece trilha de experimentos, projetos, registro de modelos e ferramentas de implantação. Agnóstica em relação à linguagem e ambiente de execução, facilita o desenvolvimento, reprodução e implantação de soluções de ML.
 
-## zenML:
+## ZenML:
 
-ZenML é uma plataforma de código aberto para gerenciamento de experimentos e pipelines em projetos de aprendizado de máquina. Simplifica o versionamento, organização e reprodução de experimentos, promovendo a colaboração entre equipes de ciência de dados
+[ZenML](https://www.zenml.io/) é uma plataforma de código aberto para gerenciamento de experimentos e pipelines em projetos de aprendizado de máquina. Simplifica o versionamento, organização e reprodução de experimentos, promovendo a colaboração entre equipes de ciência de dados
 
 ## Gradio 
 
-Gradio é uma ferramenta de código aberto para criar interfaces de usuário simples para modelos de aprendizado de máquina. Facilita a criação de aplicativos interativos para visualizar e interagir com modelos ML sem a necessidade de conhecimento em programação de interface.
+[Gradio](https://gradio.app/) é uma ferramenta de código aberto para criar interfaces de usuário simples para modelos de aprendizado de máquina. Facilita a criação de aplicativos interativos para visualizar e interagir com modelos ML sem a necessidade de conhecimento em programação de interface.
 
 ## Pipeline de dados:
 
