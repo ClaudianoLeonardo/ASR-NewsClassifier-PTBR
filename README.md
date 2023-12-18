@@ -63,3 +63,12 @@ O modelo está disponível no [repositório do hugging face](https://huggingface
 
 ## Interface:
 
+![Interface](https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/Interface.png)
+
+### O deploy do modelo está disponível no [hugging face space](https://huggingface.co/spaces/gabrielblins/ASR_NewsClassifier_PTBR)
+
+
+## Uso:
+
+```git clone https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR ```
+
