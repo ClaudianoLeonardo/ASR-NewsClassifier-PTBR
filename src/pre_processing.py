@@ -12,10 +12,10 @@ def pre_process_data(raw_data):
     - pd.DataFrame: Processed data with 'one_hot' encoding and 'texto' column.
     """
     # Select relevant columns from raw_data
-    selected_data = raw_data[['conteudo_noticia', 'assunto']]
+    selected_data = raw_data[['conteudo_noticia', 'assunto']].copy()
 
     # Clean the text in 'conteudo_noticia'
-    selected_data['texto_limpo'] = selected_data['conteudo_noticia'].astype(str).apply(clean_text)
+    selected_data['texto_limpo'] = selected_data['conteudo_noticia'].astype(str).apply(limpar_texto)
 
     # Rename columns for clarity
     selected_data = selected_data.rename(columns={'texto_limpo': 'texto', 'assunto': 'categoria'})
