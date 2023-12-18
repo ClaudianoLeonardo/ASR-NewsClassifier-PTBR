@@ -1,6 +1,9 @@
 # Automatic Speech Recognition News Classifier - PTBR
 Este projeto constitui a última parte de uma série de atividades para o componente curricular DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA - T01 (2023.2 - 24M56) do Curso de Graduação em Engenharia da Computação da Universidade Federal do Rio Grande do Norte e que é ministrado pelo Professor Doutor Ivanovitch Medeiros Dantas da Silva do Departamento de Engenharia de Computação e Automação. O projeto consiste em uma arquitetura composta por dois modelos, Whisper e Bert, para realizar a classificação de notícias em português. Para desempenhar essa atividade, foi realizado o fine-tuning do Bert utilizando a base de  [noticias publicadas no Brasil](https://www.kaggle.com/datasets/diogocaliman/notcias-publicadas-no-brasil) e o rastreamento das métricas de treinamento utilizando o MLflow. Para a integração dos dois modelos, foi desenvolvida uma interface gráfica utilizando o Gradio. O deploy do modelo está disponível em um espaço no Hugging Face."
 
+![arquitetura](https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/dgr.png)
+
+
 ## Conjunto de dados:
 A base de dados conta com 10 mil noticias divididas em 5 classes: esportes, economia, famosos, politica, tecnologia.
 
