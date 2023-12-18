@@ -58,3 +58,8 @@ Utilizando o mlflow foram realizados 4 experimentos, a seguir serão expostas as
 
 </table>
 
+O modelo está disponível no [repositório do hugging face](https://huggingface.co/ClaudianoLeonardo/bert-finetuned_news_classifier-portuguese)
+
+
+## Interface:
+
