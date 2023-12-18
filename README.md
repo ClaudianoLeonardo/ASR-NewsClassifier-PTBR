@@ -1,6 +1,6 @@
 # Automatic Speech Recognition News Classifier - PTBR
 DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA - T01 (2023.2 - 24M56)
-Esse projeto consiste em uma arquitetura composta por dois modelos,Whisper e Bert, para realizar classificação de noticias em portugues. Para desempenhar essa atividade foi realizado o fine tuning do Bert utilzando a base de dados [noticias publicadas no Brasil](https://www.kaggle.com/datasets/diogocaliman/notcias-publicadas-no-brasil) e feito o tracking das métricas de treinamento utilizando o mlflow. Para orquestrar a pipeline foi utilizado o zenML, e para integração dos dois modelos foi desenvolvido uma interface gráfica utilizando gradio. O deploy do modelo está disponível em um hugging face space.
+Esse projeto consiste em uma arquitetura composta por dois modelos,Whisper e Bert, para realizar classificação de noticias em portugues. Para desempenhar essa atividade foi realizado o fine tuning do Bert utilzando a base de dados [noticias publicadas no Brasil](https://www.kaggle.com/datasets/diogocaliman/notcias-publicadas-no-brasil) e feito o tracking das métricas de treinamento utilizando o mlflow. Para orquestrar a pipeline de dados foi utilizado o zenML, e para integração dos dois modelos foi desenvolvido uma interface gráfica utilizando gradio. O deploy do modelo está disponível em um hugging face space.
 
 ## Conjunto de dados:
 A base de dados conta com 10 mil noticias divididas em 5 classes: esportes, economia, famosos, politica, tecnologia.
