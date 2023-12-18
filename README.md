@@ -25,4 +25,25 @@ Utilizando o mlflow foram realizados 4 experimentos, a seguir serão expostas as
 |  roc_auc    |  0.9795994065281898   |  0.9795375865479723   | 
 |  Épocas    |  2    |  1    |  
 
+### Acurácia x Steps:
+
+<table>
+  
+  <tr>
+   Experimento 1 <img src="https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/acursxsteps1.png" alt="Experimento 1" width="800">  
+  Experimento 2 <img src="https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/acursxsteps2.png" alt="Experimento 2" width="800">
+  </tr>
+
+</table>
+
+### Loss x Steps:
+
+<table>
+  
+  <tr>
+   Experimento 1 <img src="https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/loss1.png" alt="Experimento 1" width="800">  
+  Experimento 2 <img src="https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/loss2.png" alt="Experimento 2" width="800">
+  </tr>
+
+</table>
 
