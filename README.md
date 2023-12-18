@@ -21,6 +21,7 @@ Gradio é uma ferramenta de código aberto para criar interfaces de usuário sim
 
 ## Pipeline de dados:
 
+![pipeline](https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR/blob/main/images/pipeline_data.png)
 
 ## Treino e Tracking:
 Utilizando o mlflow foram realizados 4 experimentos, a seguir serão expostas as métricas dos dois melhores experimentos capturados com o MLflow(o modelo é avaliado por steps):
