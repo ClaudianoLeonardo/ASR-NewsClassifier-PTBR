@@ -19,6 +19,9 @@ ZenML é uma plataforma de código aberto para gerenciamento de experimentos e p
 
 Gradio é uma ferramenta de código aberto para criar interfaces de usuário simples para modelos de aprendizado de máquina. Facilita a criação de aplicativos interativos para visualizar e interagir com modelos ML sem a necessidade de conhecimento em programação de interface.
 
+## Pipeline de dados:
+
+
 ## Treino e Tracking:
 Utilizando o mlflow foram realizados 4 experimentos, a seguir serão expostas as métricas dos dois melhores experimentos capturados com o MLflow(o modelo é avaliado por steps):
 
