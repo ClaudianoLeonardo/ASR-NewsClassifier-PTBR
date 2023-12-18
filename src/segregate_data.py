@@ -18,8 +18,8 @@ def segregate_data(data):
     train_data, val_data = train_test_split(data, test_size=0.2, shuffle=True)
 
     # Convert dataframes to Hugging Face datasets
-    train_dataset = dataframe_to_hf_dataset(train_data, column_mapping)
-    val_dataset = dataframe_to_hf_dataset(val_data, column_mapping)
+    train_dataset = dataframe_to_hf_dataset(train_data)
+    val_dataset = dataframe_to_hf_dataset(val_data)
 
     return train_dataset, val_dataset
 
