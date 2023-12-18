@@ -58,7 +58,7 @@ Utilizando o mlflow foram realizados 4 experimentos, a seguir serão expostas as
 
 </table>
 
-O modelo está disponível no [repositório do hugging face](https://huggingface.co/ClaudianoLeonardo/bert-finetuned_news_classifier-portuguese)
+### O modelo está disponível para inferência no [repositório do hugging face](https://huggingface.co/ClaudianoLeonardo/bert-finetuned_news_classifier-portuguese)
 
 
 ## Interface:
@@ -69,6 +69,25 @@ O modelo está disponível no [repositório do hugging face](https://huggingface
 
 
 ## Uso:
+###  Clone o repositório:
 
-```git clone https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR ```
+```md 
+git clone https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR
+```
+
+### Instale os requirements:
+```md
+pip -r install requirements
+```
+
+ ### Rode a função de treino:
+ ```py
+python train.py
+```
+
+### Para finetuning ou inferência também é possível carregar o modelo direto do [repositório do hugging face](https://huggingface.co/ClaudianoLeonardo/bert-finetuned_news_classifier-portuguese)
+
+
+
+
 
