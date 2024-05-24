@@ -69,7 +69,7 @@ git clone https://github.com/ClaudianoLeonardo/ASR-NewsClassifier-PTBR
 ```
 ### Instale os requisitos:
 ```md
-pip -r install requirements
+pip install -r requirements.txt
 ```
 ### Execute a função de treino:
 ```py
